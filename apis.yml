@@ -1,19 +1,55 @@
 aid: raydiant
 name: Raydiant
-description: Raydiant is a company surfaced as a portfolio company of bloomberg-beta and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Raydiant is a digital signage and in-location experience management platform
+  for brick-and-mortar businesses, now operating under the Displai brand
+  (raydiant.com redirects to displai.ai). The platform lets restaurants, retail
+  stores, hospitality venues, commercial buildings, and schools manage branded
+  content across networks of screens and kiosks from a central cloud dashboard.
+  Core products include Displai Signage (multi-location content management),
+  Displai Engage (employee engagement and gamification), Displai InSight (AI foot
+  traffic and visitor analytics), and self-service ordering kiosks integrated with
+  point-of-sale systems. Customers include Chick-fil-A, Macy's, Toyota, T-Mobile,
+  and Red Bull. It runs a production cloud API at api.raydiant.com / api.displai.ai,
+  but that surface is not publicly documented — there is no public developer portal,
+  OpenAPI specification, SDK, or API reference. Originally added to the API Evangelist
+  network as a Bloomberg Beta portfolio lead.
 url: https://raw.githubusercontent.com/api-evangelist/raydiant/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://srcdisplai.wpenginepowered.com/wp-content/uploads/2025/04/homepage-hero.webp
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-rebrand:
+  from: Raydiant
+  to: Displai
+  note: raydiant.com 301-redirects to displai.ai; API hosts api.raydiant.com and api.displai.ai resolve to the same EKS ALB.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Digital Signage
+- In-Location Experience
+- Retail Technology
+- Restaurant Technology
+- Kiosks
+- Content Management
+- Employee Engagement
+- Location Analytics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +58,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.raydiant.com/
+  url: https://www.displai.ai/
+- type: Blog
+  url: https://www.displai.ai/blog/
+- type: Support
+  url: https://help.displai.ai/
+- type: Login
+  url: https://dash.displai.ai/
+- type: SignUp
+  url: https://www.displai.ai/book-a-demo/
+- type: TermsOfService
+  url: https://www.displai.ai/terms-of-service/
+- type: PrivacyPolicy
+  url: https://www.displai.ai/privacy-policy/
+- type: DomainSecurity
+  url: security/raydiant-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
