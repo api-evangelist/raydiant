@@ -37,7 +37,7 @@ x-rebrand:
   from: Raydiant
   to: Displai
   note: raydiant.com 301-redirects to displai.ai; API hosts api.raydiant.com and api.displai.ai resolve to the same EKS ALB.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
